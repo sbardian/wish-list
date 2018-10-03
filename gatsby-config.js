@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
@@ -17,5 +17,20 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-emotion',
+    // TODO: remove if not pulling anything from json/file system
+    // 'gatsby-transformer-json',
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: './src/wish-list',
+    //   },
+    // },
+    {
+      resolve: 'gatsby-source-amazon-wishlist',
+      options: {
+        wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/1H5VWB16TALUC',
+      },
+    },
   ],
 };
