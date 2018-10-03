@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Amazon wish list viewer',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,4 +18,4 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-}
+};
