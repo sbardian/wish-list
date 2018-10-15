@@ -1,45 +1,53 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import { css } from 'react-emotion';
 
-const WishList = ({ data }) => {
-  const { edges } = { data: { allAmazonWishlistItem } };
-
+export default ({}) => {
+  const name = 'Brian'.toLowerCase();
   return (
-    <div
-      className={css`
-        display: grid;
-        grid-template-columns: 1fr;
-      `}
-    >
-      {edges.map(item => (
-        <a href="${item.comment}">${item.comment}</a>
-      ))}
-    </div>
-  );
-};
-
-export default WishList;
-
-export const wishListQuery = graphql`
-  {
-    allAmazonWishlistItem {
-      edges {
-        node {
-          id
-          title
-          url
-          price
-          featrues
-          comment
-          priority
-          purchased
-          requested
-          image {
-            url
+    <StaticQuery
+      query={graphql`
+        {
+          allAmazonWishlistItem {
+            edges {
+              node {
+                id
+                title
+                url
+                price
+                features
+                comment
+                priority
+                purchased
+                requested
+                image {
+                  url
+                }
+              }
+            }
           }
         }
-      }
-    }
-  }
-`;
+      `}
+      render={data => {
+        console.log('data = ', data);
+        const {
+          allAmazonWishlistItem: { edges },
+        } = data;
+        return (
+          <div
+            className={css`
+              display: grid;
+              grid-template-columns: 1fr;
+            `}
+          >
+            {edges.map(item => {
+              if (item.node.comment.toLowerCase() === name) {
+                return <li key={item.node.id}>{item.node.title}</li>;
+              }
+            })}
+          </div>
+        );
+      }}
+    />
+  );
+};

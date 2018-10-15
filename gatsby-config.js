@@ -27,7 +27,7 @@ module.exports = {
     //   },
     // },
     {
-      resolve: 'gatsby-source-amazon-wishlist',
+      resolve: '@sbardian/gatsby-source-amazon-wishlist',
       options: {
         wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/1H5VWB16TALUC',
       },
