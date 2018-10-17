@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="Gatsby" src="http://1.bp.blogspot.com/-BXfD_cZOtOs/VDmw7RyUWvI/AAAAAAAAFeo/KlBE4G8bOR0/s1600/Logo%2BAmazon.png" width="300" />
+    <img alt="Gatsby" src="https://www.wondersandworries.org/wp-content/uploads/2016/09/wishlist.jpg" width="300" />
   </a>
 </p>
 <h1 align="center">
