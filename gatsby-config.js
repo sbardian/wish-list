@@ -61,11 +61,11 @@ module.exports = {
           },
           {
             owner: 'casey',
-            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK?',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/3CDH4A06VO4Z3',
           },
           {
             owner: 'perrin',
-            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK?',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK',
           },
         ],
       },
