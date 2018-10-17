@@ -1,23 +1,34 @@
 import React, { Component } from 'react';
 import 'normalize.css';
-import { navigate } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
-import SelectOwner from '../components/SelectOwner';
 
 class IndexPage extends Component {
-  handleOwnerSelect = e => {
-    console.log('value = ', e.target.value);
-    navigate('/wishlistPage', { state: { owner: e.target.value } });
-  };
-
   render() {
+    const { owners } = this.props.data.site.siteMetadata;
     return (
       <Layout>
-        <h1>Select owner of wishlist</h1>
-        <SelectOwner onChange={this.handleOwnerSelect} />
+        <h1>Select wish list:</h1>
+        {owners.map(owner => (
+          <div key={owner.name}>
+            <Link to={owner.name}>{owner.name}</Link>
+          </div>
+        ))}
       </Layout>
     );
   }
 }
 
 export default IndexPage;
+
+export const ownerQuery = graphql`
+  {
+    site {
+      siteMetadata {
+        owners {
+          name
+        }
+      }
+    }
+  }
+`;
