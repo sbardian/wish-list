@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Amazon wish list viewer',
+    title: 'Amazon Wish List Viewer',
     owners: [
       {
         name: 'brian',
