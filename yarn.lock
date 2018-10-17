@@ -757,7 +757,7 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@sbardian/gatsby-source-amazon-wishlist@^2.1.1":
+"@sbardian/gatsby-source-amazon-wishlist@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.1.tgz#dedab3373e5c538c2d76c672a3be99433ddcc6f1"
   dependencies:
@@ -3229,13 +3229,13 @@ emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
 
-emotion-server@^9.2.12:
+emotion-server@9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-9.2.12.tgz#aaaaa04843108943d1ce5a796e0bc40b06a3223e"
   dependencies:
     create-emotion-server "^9.2.12"
 
-emotion@^9.2.12:
+emotion@9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.12.tgz#53925aaa005614e65c6e43db8243c843574d1ea9"
   dependencies:
@@ -4089,7 +4089,7 @@ gatsby-link@^2.0.3:
     prop-types "^15.6.1"
     ric "^1.3.0"
 
-gatsby-plugin-emotion@^2.0.5:
+gatsby-plugin-emotion@2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-2.0.5.tgz#e44d0ee58fc07bb49889a28ca51e0cb4690aeeb4"
   dependencies:
@@ -4139,7 +4139,7 @@ gatsby-react-router-scroll@^2.0.0:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@^2.0.4:
+gatsby-source-filesystem@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.4.tgz#001dd154470bfb1b11eb0e18ed95dfb3f55ed8c2"
   dependencies:
@@ -4156,14 +4156,14 @@ gatsby-source-filesystem@^2.0.4:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-json@^2.1.3:
+gatsby-transformer-json@2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-json/-/gatsby-transformer-json-2.1.3.tgz#7b2bb2946d75ebba7f43f2902331449605b2cbfd"
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
 
-gatsby-transformer-remark@^2.1.7:
+gatsby-transformer-remark@2.1.7:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.1.7.tgz#09abb259666c819d01b9832a8e9e49546c89a895"
   dependencies:
@@ -6384,7 +6384,7 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
 
-normalize.css@^8.0.0:
+normalize.css@8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
 
@@ -7482,7 +7482,7 @@ react-dom@16.5.2:
     prop-types "^15.6.2"
     schedule "^0.5.0"
 
-react-emotion@^9.2.12:
+react-emotion@9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-9.2.12.tgz#74d1494f89e22d0b9442e92a33ca052461955c83"
   dependencies:
