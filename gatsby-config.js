@@ -1,6 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: 'Amazon wish list viewer',
+    owners: [
+      {
+        name: 'brian',
+      },
+      {
+        name: 'casey',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -41,7 +49,6 @@ module.exports = {
           {
             owner: 'brian',
             wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/1H5VWB16TALUC',
-            limit: 1,
           },
           {
             owner: 'casey',
