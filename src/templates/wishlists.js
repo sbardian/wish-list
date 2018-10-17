@@ -3,23 +3,39 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 
 export default ({ data }) => {
-  const post = data.markdownRemark;
   return (
     <Layout>
       <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1>hey</h1>
+        {data.allAmazonWishlistItem.edges.map(item => (
+          <div key={item.node.id}>
+            <span>{item.node.title}</span>
+          </div>
+        ))}
       </div>
     </Layout>
   );
 };
 
-export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
+export const wishtListQuery = graphql`
+  query getAllAmazonWishlistItems($owner: String!) {
+    allAmazonWishlistItem(filter: { owner: { eq: $owner } }) {
+      edges {
+        node {
+          id
+          owner
+          title
+          url
+          price
+          features
+          comment
+          priority
+          purchased
+          requested
+          image {
+            url
+          }
+        }
       }
     }
   }
