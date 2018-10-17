@@ -13,7 +13,7 @@ class IndexPage extends Component {
           className={css`
             display: grid;
             justify-content: center;
-            color: #666;
+            color: #e1e1e1;
           `}
         >
           Select wish list
