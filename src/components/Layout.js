@@ -52,7 +52,7 @@ const Layout = ({ children }) => (
           <div
             className={css`
               background-color: #b8c99d;
-              margin: 20px;
+              margin: 20px 0 20px 0;
               padding: 20px;
             `}
           >
