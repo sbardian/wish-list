@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Amazon Wish List Viewer',
+    title: 'Amazon Wish Lists',
     owners: [
       {
         name: 'brian',
       },
       {
         name: 'casey',
+      },
+      {
+        name: 'perrin',
       },
     ],
   },
@@ -27,6 +30,12 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-emotion',
     'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: './src/utils/typography.js',
+      },
+    },
     // TODO: remove if not pulling anything from json/file system
     // 'gatsby-transformer-json',
     // {
@@ -52,6 +61,10 @@ module.exports = {
           },
           {
             owner: 'casey',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK?',
+          },
+          {
+            owner: 'perrin',
             wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK?',
           },
         ],
