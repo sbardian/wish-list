@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { css } from 'emotion';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-
 import Header from './Header';
 
 const Layout = ({ children }) => (
@@ -35,7 +34,7 @@ const Layout = ({ children }) => (
             max-width: 960px;
             &::after {
               content: '';
-              background-image: url('http://www.alerjidernegi.org.tr/wp-content/uploads/2016/04/shopping-bags-820x510-728x453.jpg');
+              /* background-image: url('http://www.alerjidernegi.org.tr/wp-content/uploads/2016/04/shopping-bags-820x510-728x453.jpg'); */
               background-repeat: no-repeat;
               background-size: cover;
               background-attachment: fixed;
@@ -52,7 +51,7 @@ const Layout = ({ children }) => (
           <div
             className={css`
               background-color: #b8c99d;
-              margin: 20px 0 20px 0;
+              margin: 0 20px 20px 20px;
               padding: 20px;
             `}
           >
