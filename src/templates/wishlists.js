@@ -36,7 +36,6 @@ export default ({ data }) => {
             return 0;
           })
           .map(edge => {
-            console.log('edge = ', edge.edges);
             return edge.edges.map(item => (
               <div
                 key={item.node.id}
