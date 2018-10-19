@@ -4150,7 +4150,7 @@ gatsby-plugin-react-helmet@3.0.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-typography@^2.2.0:
+gatsby-plugin-typography@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.2.0.tgz#7c78cb7cd931f4ad9ad95d616588c6337b264b3d"
   dependencies:
@@ -7567,7 +7567,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-typography@^0.16.13:
+react-typography@0.16.13:
   version "0.16.13"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.13.tgz#94bdd2a9448823bc74d8ebf7465d86c7dbe20dcf"
 
@@ -8982,14 +8982,14 @@ typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "http://registry.npmjs.org/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
 
-typography-theme-lincoln@^0.15.11:
+typography-theme-lincoln@0.15.11:
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/typography-theme-lincoln/-/typography-theme-lincoln-0.15.11.tgz#83236d39fe0f5f62695c73f5d247d70626ef19f0"
   dependencies:
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.15.10"
 
-typography@^0.16.17:
+typography@0.16.17:
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.17.tgz#e166eda9b533d51c115e2b38becdb5cedd0a30e4"
   dependencies:
