@@ -1,0 +1,15 @@
+.highest {
+  color: red;
+}
+.high {
+  color: orange;
+}
+.medium {
+  color: yellow;
+}
+.low {
+  color: rgb(0, 225, 255);
+}
+.lowest {
+  color: blue;
+}

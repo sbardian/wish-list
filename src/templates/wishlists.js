@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { css } from 'emotion';
 import Layout from '../components/Layout';
+import './priorities.css';
 
 export default ({ data }) => {
   return (
@@ -16,7 +17,6 @@ export default ({ data }) => {
       >
         <h1>
           {`${data.allAmazonWishlistItem.group[0].edges[0].node.owner.toUpperCase()}'s wish list`}
-          title
         </h1>
         {data.allAmazonWishlistItem.group
           .sort((a, b) => {
@@ -68,7 +68,11 @@ export default ({ data }) => {
                 </div>
                 <div>
                   <div>
-                    <span>Priority: {item.node.priority}</span>
+                    Priority:
+                    <span className={`${item.node.priority}`}>
+                      {' '}
+                      {item.node.priority}
+                    </span>
                   </div>
                   <div>
                     <span>Quantity: {item.node.requested}</span>
