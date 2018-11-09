@@ -16,7 +16,7 @@
     "gatsby-source-filesystem": "2.0.5",
     "gatsby-transformer-json": "2.1.4",
     "gatsby-transformer-remark": "2.1.8",
-    "normalize.css": "8.0.0",
+    "normalize.css": "8.0.1",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-emotion": "9.2.12",
