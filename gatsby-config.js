@@ -5,12 +5,6 @@ module.exports = {
       {
         name: 'brian',
       },
-      {
-        name: 'casey',
-      },
-      {
-        name: 'perrin',
-      },
     ],
   },
   plugins: [
