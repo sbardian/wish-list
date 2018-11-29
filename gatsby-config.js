@@ -5,6 +5,9 @@ module.exports = {
       {
         name: 'brian',
       },
+      {
+        name: 'brian2',
+      },
     ],
   },
   plugins: [
@@ -52,6 +55,10 @@ module.exports = {
           {
             owner: 'brian',
             wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/23SS72WRRLNI3',
+          },
+          {
+            owner: 'brian2',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/UEIS98RI522R',
           },
         ],
       },
