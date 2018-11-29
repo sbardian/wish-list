@@ -57,16 +57,8 @@ module.exports = {
         lists: [
           {
             owner: 'brian',
-            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/1H5VWB16TALUC',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/23SS72WRRLNI3',
           },
-          // {
-          //   owner: 'casey',
-          //   wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/3CDH4A06VO4Z3',
-          // },
-          // {
-          //   owner: 'perrin',
-          //   wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LELKOUAE3NNK',
-          // },
         ],
       },
     },
