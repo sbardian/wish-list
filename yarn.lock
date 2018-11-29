@@ -758,9 +758,9 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@sbardian/gatsby-source-amazon-wishlist@2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.4.tgz#93985ca2a21ce5fd4929e29999935c2113edbd73"
+"@sbardian/gatsby-source-amazon-wishlist@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.5.tgz#cc38620d35fcc6317706c948aa08620c9228ad20"
   dependencies:
     cheerio "^1.0.0-rc.2"
     node-fetch "^2.3.0"
