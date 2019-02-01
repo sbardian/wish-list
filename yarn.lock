@@ -682,9 +682,10 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@sbardian/gatsby-source-amazon-wishlist@2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.5.tgz#cc38620d35fcc6317706c948aa08620c9228ad20"
+"@sbardian/gatsby-source-amazon-wishlist@^2.1.17":
+  version "2.1.17"
+  resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.17.tgz#e9c86c0513a9adf8111946d9a80cc167bda02361"
+  integrity sha512-qf6el2MpJuMB2B7sx5Mayg+lGVgXCaIK7Q6acfCiEfSYyzuJeb5bJiAEefw535Ep6wZhoWpjS4TEZGiTD6Xx4Q==
   dependencies:
     cheerio "^1.0.0-rc.2"
     node-fetch "^2.3.0"
@@ -6380,6 +6381,7 @@ node-fetch@^1.0.1:
 node-fetch@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
+  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
 
 node-forge@0.7.5:
   version "0.7.5"
