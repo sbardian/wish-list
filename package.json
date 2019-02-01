@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Brian Andrews <sbardian@gmail.com>",
   "dependencies": {
-    "@sbardian/gatsby-source-amazon-wishlist": "2.1.5",
+    "@sbardian/gatsby-source-amazon-wishlist": "2.1.7",
     "emotion": "10.0.4",
     "emotion-server": "10.0.4",
     "gatsby": "2.0.98",
