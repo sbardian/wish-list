@@ -760,7 +760,7 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@sbardian/gatsby-source-amazon-wishlist@^2.1.17":
+"@sbardian/gatsby-source-amazon-wishlist@2.1.17":
   version "2.1.17"
   resolved "https://registry.yarnpkg.com/@sbardian/gatsby-source-amazon-wishlist/-/gatsby-source-amazon-wishlist-2.1.17.tgz#e9c86c0513a9adf8111946d9a80cc167bda02361"
   integrity sha512-qf6el2MpJuMB2B7sx5Mayg+lGVgXCaIK7Q6acfCiEfSYyzuJeb5bJiAEefw535Ep6wZhoWpjS4TEZGiTD6Xx4Q==
